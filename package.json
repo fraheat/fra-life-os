@@ -1,0 +1,19 @@
+{
+  "name": "offshift",
+  "version": "2.0.0",
+  "private": true,
+  "description": "FRA LIFE OS — local-first personal dashboard with private cloud sync",
+  "scripts": {
+    "build": "node build.cjs",
+    "dev": "node serve.cjs",
+    "start": "node serve.cjs",
+    "test:money": "node test-money-model.cjs"
+  },
+  "devDependencies": {
+    "typescript": "5.8.3"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^9.1.0",
+    "@netlify/functions": "^4.2.5"
+  }
+}
